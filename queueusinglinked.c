@@ -101,24 +101,6 @@ dequeue();
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 int main()
 {
 int choice;
@@ -132,6 +114,10 @@ printf("4.Exit\n");
 printf("Enter your choice:");
 scanf("%d",&choice);
 
+
+
+
+  
 
 switch(choice)
 {
