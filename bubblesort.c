@@ -19,7 +19,8 @@ void bubbleSort(int arr[], int n)
             }
         }
        
-        if (swapped == 0) {
+        if (swapped == 0)
+        {
             break;
         }
     }
@@ -40,7 +41,8 @@ int main() {
     scanf("%d", &n);
     int arr[n]; 
     printf("Enter %d numbers:\n", n);
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         scanf("%d", &arr[i]);
     }
     
